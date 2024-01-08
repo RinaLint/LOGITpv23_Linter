@@ -6,7 +6,7 @@ try:
 except :
     print("Kogus on täisarv")
 hind=12.90
-hind*=hind*1.1 #hond+10%
+hind*=hind*1.1 #hind+10%
 print("Igaüks maksab ", hind/P)
 
 
@@ -74,9 +74,6 @@ except :
 
 
 
-
-
-
 #5
 a=float(input("pikkus: "))
 b=float(input("laikus: "))
@@ -88,10 +85,6 @@ print("Diagonaal=",d,"m")
 u=float(input("Ümbermõõt: ")) #L=pi*2*r=pi*d
 d=round(u/pi,2)
 print("Läbimõõt =",d)
-
-
-
-
 
 
 

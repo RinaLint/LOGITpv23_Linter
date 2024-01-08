@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f9e395a4-0d8b-4e26-9c56-d2ee6f12516d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LOGITpv23_Linter.py</StartupFile>
+    <StartupFile>praktiline_töö.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LOGITpv23_Linter.py" />
+    <Compile Include="praktiline_töö.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
