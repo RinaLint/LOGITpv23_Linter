@@ -1,3 +1,12 @@
+#Практическая работа "Индекс массы тела"
+print("Tere! Olen sinu uus sõber - Python!")
+nimi=input("Mis on sinu nimi? ").capitalize() #python->Python
+print(nimi+" oi, kui ilus nimi!")
+
+
+
+
+
 #14
 
 
@@ -5,7 +14,7 @@
 #13 Jalgpalli meeskond(v.2)
 try:
     gender=input("Sugu: ")
-    if gender-isalpha() and (gender.lower()=="naine" or gender.lower()=="mees"):
+    if gender.isalpha() and (gender.lower()=="naine" or gender.lower()=="mees"):
         if gender.lower()=="naine":
             print("Ei soobi!")
         else:
