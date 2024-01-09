@@ -1,7 +1,87 @@
-from random import *
-from detetime import *
+#14
+
+
+
+#13 Jalgpalli meeskond(v.2)
+try:
+    gender=input("Sugu: ")
+    if gender-isalpha() and (gender.lower()=="naine" or gender.lower()=="mees"):
+        if gender.lower()=="naine":
+            print("Ei soobi!")
+        else:
+            try:
+                 age=int(input("Palun märkige oma vanus"))
+                 if 16<= age <=18:
+                     print("Sa sobid meie meeskonda!")
+                 else:
+                     print("Kandidaat ei ole vanuselt sobiv.")
+            except:
+                print("vale vanus! Viga anmetüübiga!")
+    else:
+        print("Sisesta õige tekst!")
+
+except:
+     print("Viga andmetüübiga!")
+
+
+
+#13 Jalgpalli meeskond
+gender=input("Kas sa oled mees või naine?")
+if gender.lower()=="naine":
+    print("Kahjuks, otsime ainult mehi")
+else:
+    age=int(input("Palun märkige oma vanus"))
+    if age>=16 and age <=18:
+        print("Sa sobid meie meeskonda!")
+    else:
+        print("Kahjuks sa ei sobi meie meeskonda.")
+
+
+#12 Müük
+hind = float(input("Sisesta toote hind: "))
+if hind <= 10:
+    soodustus = hind * 0.1
+else:
+    soodustus = hind * 0.2
+okonnelik_hind = hind - soodustus
+print("Lõplik hind on", okonnelik_hind, "€")
+
+
+#11 Juubel
+
+
+
+#10 Matemaatika
+
+
+
+#9 Ruut
+#a=10    #int
+#b=2.3   #float
+#c="programma" #str
+#d="1.1" #str
+#print(b.is_integer()) #False
+#print(c.isalpha()) #True
+#print(a.isalpha()) #False 
+#print(a.isnumeric()) #False 
+#print(a.isdigit()) #
+#print(a.isdecimal()) #
+try:
+    s1 = float(input(""))
+    s2 = float(input(""))
+
+    if s1 == s2:
+        print("See on ruut!")
+    else:
+        print("See ei ole ruut!")
+except:
+    print("Viga!")
+
+
 
 #8 Poes
+from random import *
+from datetime import *
 arve_nr=datetime.now() #date.today()
 print(arve_nr)
 tsekk="Arve: "+str(arve_nr)+"\nToode Hind Kogus Summa\n"
@@ -31,6 +111,7 @@ if v=="jah":
     summa+=mitu*hind
 tsekk+="Kokku maksta: "+str(summa)
 print(tsekk)
+
 
 
 #7 Inimese pikkus ja sugu
@@ -64,8 +145,6 @@ if l1!=0: #l1==155 or l1=160
 
 
 
-
-
 #6 inimese pikkus
 try:
     pikkus=int(input("Sisesta oma pikkus: "))
@@ -83,9 +162,7 @@ except :
 
 
 
-
-
-#5
+#5 Temperatuur
 try:
     t=float(input("Mis on ruumi temperatuur?"))
     if t>18:
@@ -97,9 +174,7 @@ except:
 
 
 
-
-
-#4
+#4 Allahindus
 try:
     hind=float(input("Hind: "))
     if hind>=700:
@@ -111,7 +186,7 @@ except :
 
 
 
-#3
+#3 põranda pindala
 try:
     pikkus=float(input("Pikkus:"))
     try:
@@ -135,11 +210,7 @@ except :
 
 
 
-
-
-
-
-#2
+#2 Pinginaabrid
 eesnimi1=input("Mis on 1. nimi?").capitalize() # "Karina" "Egor"
 eesnimi2=input("Mis on 2. nimi?").capitalize()
 if (eesnimi1=="Karina" and eesnimi2=="Egor") or (eesnimi1=="Egor" and eesnimi2=="Karina"):
@@ -151,13 +222,10 @@ if (eesnimi1!=eesnimi2) and (eesnimi1 and eesnimi2 in ["Karina", "Egor"]):
     print("Need on pinginaabrid")
 else:
     print("Rühmakaaslased")
-
-
-
-
-
-
-#1
+    
+    
+    
+    #1 Juku
 eesnimi=input("Mis on sinu nimi?").capitalize() #Juku
 if eesnimi=="Juku":
     try:    
