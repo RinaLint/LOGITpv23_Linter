@@ -9,7 +9,7 @@ try:
             pikkus = int(input("Sisesta oma pikkus (cm): "))
             mass = float(input("Sisesta oma kaal (kg): "))
             indeks = mass / ((0.01 * pikkus) ** 2)
-            print(nimi + "! Sinu keha indeks on: {:.1f}".format(indeks))
+            print(nimi + "! Sinu keha indeks on: ")
             if indeks < 16:
                 print("Tervisele ohtlik alakaal")
             elif 16 <= indeks < 19:
@@ -31,7 +31,7 @@ try:
     print("Kohtumiseni, " + nimi + "! Igavesti Sinu, Python!")
 except ValueError:
     print("Vigane sisend! Palun sisestage arvulised väärtused korrektselt.")
-
+ 
 
 #14
 

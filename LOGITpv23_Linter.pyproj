@@ -22,8 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LOGITpv23_Linter.py" />
+    <Compile Include="module1.py" />
     <Compile Include="ruutvõrrandit.py" />
-    <Compile Include="praktiline_töö.py" />
+    <Compile Include="1-14.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
