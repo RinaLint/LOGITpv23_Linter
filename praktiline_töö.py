@@ -3,17 +3,13 @@ try:
     print("Tere! Olen sinu uus sõber - Python!")
     nimi = input("Sisesta oma nimi: ").capitalize() #python->Python
     print(nimi + ", oi kui ilus nimi!")
-    
     vastus = int(input(nimi + "! Kas leian Sinu keha indeksi? 0-ei, 1-jah => "))
-    
     if vastus == 1:
         try:
             pikkus = int(input("Sisesta oma pikkus (cm): "))
             mass = float(input("Sisesta oma kaal (kg): "))
-            
             indeks = mass / ((0.01 * pikkus) ** 2)
             print(nimi + "! Sinu keha indeks on: {:.1f}".format(indeks))
-            
             if indeks < 16:
                 print("Tervisele ohtlik alakaal")
             elif 16 <= indeks < 19:
@@ -28,16 +24,11 @@ try:
                 print("Tugev rasvumine")
             else:
                 print("Tervisele ohtlik rasvumine")
-        
         except ValueError:
             print("Vigane sisend! Palun sisestage arvulised väärtused pikkuse ja kaalu jaoks korrektselt.")
-    
     else:
         print("Kahju! See on väga kasulik info!")
-    
-    print()
     print("Kohtumiseni, " + nimi + "! Igavesti Sinu, Python!")
-
 except ValueError:
     print("Vigane sisend! Palun sisestage arvulised väärtused korrektselt.")
 
