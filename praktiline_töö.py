@@ -1,7 +1,10 @@
 #Практическая работа "Индекс массы тела"
 print("Tere! Olen sinu uus sõber - Python!")
 nimi=input("Mis on sinu nimi? ").capitalize() #python->Python
-print(nimi+" oi, kui ilus nimi!")
+print(nimi+" , oi, kui ilus nimi!")
+print(nimi+  "! Kas leian Sinu keha indeksi? 0-ei, 1-jah => ")
+if vastus.lower()=="1":
+
 
 
 
