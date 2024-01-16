@@ -1,19 +1,5 @@
 #iseseisev töö. valik laused
 
-from math import *
-a,b,c=map(float,input("a,b,c:")).splite(" ")
-if a>0 and b>0 and c>0:
-    if a+b+c==180:
-        print("Kolmnurk")
-        if a==b==c:
-            print("võrdkülgne")
-        elif a==b or b==c or a==c:
-            print("erikülgne")
-    else:
-        print("Nurgad")
-else:
-    print("<0")
-
 #6
 from math import *
 vastus=input("Kas lahendame ruutvõrrand?").lower()
@@ -47,6 +33,30 @@ else:
 
 
 #3
+from math import *
+v=input("Kas tahad 1-7 numbrist saada päev nimetus?")
+if v.lower()=="jah":
+    try:
+        nr=int(input("Päeva number"))
+        if nr==1:
+            p="esmaspäev"
+        elif nr==2:
+            p="teisipäev"
+        elif nr==3:
+            p="kolmapäev"
+        elif nr==4:
+            p="neljapäev"
+        elif nr==5:
+            p="reede"
+        elif nr==6:
+            p="laupäev"
+        elif nr==7:
+            p="pühapäev"
+        else:
+            p="on vaja 1-7"
+        print(p)
+    except :
+
 
 
 
@@ -64,7 +74,6 @@ if a>0 and b>0 and c>0:
         print("Nurgad")
 else:
     print("<0")
-
 
 
 
