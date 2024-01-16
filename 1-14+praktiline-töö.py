@@ -33,6 +33,7 @@ except ValueError:
     print("Vigane sisend! Palun sisestage arvulised väärtused korrektselt.")
  
 
+
 #14
 
 
