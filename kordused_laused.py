@@ -24,7 +24,7 @@ while True:
 
 
 
-#2
+#2 l
 summa=0
 for i in range(10):
     arv=float(input("Sisesta arv: "))
