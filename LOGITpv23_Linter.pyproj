@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f9e395a4-0d8b-4e26-9c56-d2ee6f12516d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ruutvõrrandit.py</StartupFile>
+    <StartupFile>kordused_laused.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
     <Compile Include="LOGITpv23_Linter.py" />
     <Compile Include="module1.py" />
     <Compile Include="1-14.py" />
+    <Compile Include="kordused_laused.py" />
     <Compile Include="ruutvõrrandit.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
