@@ -1,7 +1,7 @@
 from random import *
 from datetime import *
 
-#3nnnnnn
+#3
 k=0
 while True:
     k+=1
